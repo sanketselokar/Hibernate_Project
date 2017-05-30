@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2017, 5:18:32 PM
+    Author     : Sanket
+*/
+#inputField {
+    display: none;
+    background: white;
+    position: absolute;
+    left:35%;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr:hover {
+    background-color: #f4a742;
+    cursor:pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input[type=button]{
+    background-color: #4889f0;
+    color: white;
+    border: 1px #3079ed solid;
+    border-radius: 2px;
+    padding: 5px 12px;
+    float:right;
+    margin:10px;
+    width: 90px
+}
