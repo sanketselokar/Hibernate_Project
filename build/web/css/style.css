@@ -39,12 +39,29 @@ tr:nth-child(even) {
 }
 
 input[type=button]{
-    background-color: #4889f0;
+    background-color: #29a02f;
     color: white;
     border: 1px #3079ed solid;
     border-radius: 2px;
-    padding: 5px 12px;
-    float:right;
-    margin:10px;
-    width: 90px
+    -webkit-border-radius: 5px;
+    padding: 25px 20px;
+    font-size: 1em;
+    /*float:left;*/
+    /*margin:10px;*/
+    /*width: 90px*/
+}
+input[type=submit]{
+    background-color: #29a02f;
+    color: white;
+    border: 1px #3079ed solid;
+    border-radius: 2px;
+    -webkit-border-radius: 5px;
+    font-size: 1em;
+    padding: 25px 20px;
+    /*float:left;*/
+    /*margin:10px;*/
+/*    width: 90px*/
+}
+input[type=button]:disabled{
+    background-color: #f442ce;
 }

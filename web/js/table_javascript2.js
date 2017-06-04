@@ -33,7 +33,9 @@
     //var x = this.id;
     
     var inputField = document.getElementById("inputField");
+    document.getElementById("container").disabled = true;
     inputField.style.display = 'block';
+    
 }
     
     
@@ -63,6 +65,7 @@
     hideInputField();
         clearInputField();
         disableButtons();
+        unhighlightRows();
         
 //        document.forms[0].action = "UpdateServlet2";
 //            document.forms[0].submit();
@@ -92,3 +95,11 @@ function disableButtons(){
     
 }
 
+function highlightRows() {
+    table.rows[rIndex].style.backgroundColor = 'orange';
+    //table.rows[rIndex].style.color = 'white';
+}
+
+function unhighlightRows() {
+    table.rows[rIndex].style.backgroundColor = origColor;
+}

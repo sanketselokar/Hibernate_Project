@@ -20,6 +20,7 @@
 
     </head>
     <body>
+        <div id="container">
         
         <h1>Student list</h1>
          <!--<input type="button" value="Edit" name="editButton" >-->
@@ -91,6 +92,7 @@
                 
                 
         </table>
+        </div>
     </body>
     
     <script type="text/javascript" src="js/table_javascript2.js"></script>
